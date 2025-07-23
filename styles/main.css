@@ -30,6 +30,16 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -129,15 +139,6 @@ h3 {
 }
 
 /*info*/
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-  text-transform: capitalize;
-}
 
 .title-benefits {
   font-weight: 500;
