@@ -1,11 +1,12 @@
 /*main*/
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--slate);
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 
 :root {
+  --second-family: 'Raleway', sans-serif;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -37,18 +38,20 @@ p {
 
 /*head*/
 .accent {
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
 }
 
 .site {
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
@@ -87,15 +90,17 @@ p {
 }
 
 h1 {
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
 
 .title-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -105,14 +110,20 @@ h1 {
   cursor: pointer;
 }
 
+.title-button:hover,
+.title-button:focus {
+  background-color: var(--ocean);
+}
+
 /*info*/
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -141,4 +152,21 @@ h2 {
 
 /*team*/
 
-/*team*/
+/*footer*/
+footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-site {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
