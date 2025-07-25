@@ -62,7 +62,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .site {
@@ -72,7 +72,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 .header-list {
@@ -193,7 +193,7 @@ footer {
   background-color: var(--navy-blue);
 }
 
-.footer-site {
+.accent-footer {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -201,6 +201,16 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
+}
+
+.footer-site {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .footer-text {
