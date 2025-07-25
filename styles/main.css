@@ -139,6 +139,16 @@ h3 {
 
 /*info*/
 
+.info-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+
 .title-benefits {
   font-weight: 500;
   font-size: 20px;
@@ -147,7 +157,24 @@ h3 {
   color: var(--navy-blue);
 }
 
+.title-benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /*team*/
+
+.team-list-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+
 .team-list {
   background-color: var(--cloud);
 }
@@ -173,6 +200,16 @@ h3 {
 }
 
 /*portfolio*/
+
+.potfolio-list-head {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
 
 .portfolio-list-name {
   font-weight: 500;
