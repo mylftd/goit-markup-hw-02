@@ -30,30 +30,6 @@ ul {
   list-style-type: none;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-  text-transform: capitalize;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
 /*head*/
 .accent {
   font-family: var(--second-family);
